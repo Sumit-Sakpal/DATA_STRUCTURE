@@ -1,0 +1,4 @@
+﻿  main.cpp
+d:\visual studio\1-august\1-august\main.cpp(139): warning C4101: 'str3': unreferenced local variable
+d:\visual studio\1-august\1-august\main.cpp(138): warning C4101: 'str2': unreferenced local variable
+  1-August.vcxproj -> D:\Visual Studio\1-August\Debug\DS-1.exe

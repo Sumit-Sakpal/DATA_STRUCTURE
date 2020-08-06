@@ -1,18 +1,20 @@
 #define _CRT_SECURE_NO_WARNINGS
 
-#include<iostream>
-#include<string.h>
-using namespace std;
+#include"Employee.h"
 
 #ifndef N_
 #define N_
+
 typedef class Node
 {
-public:
-	int Data;
-	char Name[10];
+	cEmployee Data;
 	Node *next;
+
+public:
 	Node();
+	Node(cEmployee e);
+	friend class SLL;
 }NODE,*PNODE;
+
 #endif
 

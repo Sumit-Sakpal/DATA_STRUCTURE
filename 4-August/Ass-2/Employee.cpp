@@ -1,61 +1,37 @@
-#include "Employee.h"
+#include"Employee.h"
 
-Employee::Employee()
+cEmployee::cEmployee()
 {
-	Head = NULL;
+	len = 0;
+	eId = 0;
+	name = new char[len + 1];
+	strcpy(name, " ");
+	salary = 0;
 }
-
-void Employee::Create(int no)
+void cEmployee::Accept()
 {
-	int iCNT = 0;
-	int NO = 0;
-	char nm[10];
-
-	for (iCNT = 1; iCNT <= no; iCNT++)
-	{
-		cout << "\t Enter Emp ID : ";
-		cin >> NO;
-
-		cout << "\t Enter Emp Name : ";
-		cin >> nm;
-
-		PNODE newn = new NODE;
-		newn->Data = NO;
-		strcpy(newn->Name, nm);
-		newn->next = NULL;
-
-		if (iCNT == 1)
-		{
-			Head = newn;
-		}
-		else
-		{
-			newn->next = Head;
-			Head = newn;
-		}
-	}
+	char nm[50];
+	cout << "\nEnter Employee Details::" << endl;
+	cout << "Enter Employee Id::";
+	cin >> eId;
+	cout << "\nEnter Employee Name::";
+	cin >> nm;
+	len = strlen(nm);
+	name = new char[len + 1];
+	strcpy(name, nm);
+	cout << "\nEnter Employee Salary::";
+	cin >> salary;
+	cout << "\n=============================================================\n\n";
 }
-
-void Employee::Display()
+void cEmployee::Display()
 {
-	try
-	{
-		if (Head == NULL)
-			throw 'E';
-
-		Node *Temp = Head;
-		cout << "\n\t EMPLOYEE :  \n\n\t";
-		while (Temp != NULL)
-		{
-			cout <<" Emp_ID :"<<Temp->Data<<"\t" ;
-			cout <<" Emp_Name :" << Temp->Name << "\n\t";
-			Temp = Temp->next;
-
-		}
-
-	}
-	catch (char ch)
-	{
-		cout << Empty();
-	}
+	cout << "Employee Details::" << endl;
+	cout << "Employee Id::" << eId << endl;
+	cout << "Employee Name::" << name << endl;
+	cout << "Employee Salary::" << salary << endl;
+	cout << "\n=============================================================";
+}
+cEmployee::~cEmployee()
+{
+	delete name;
 }

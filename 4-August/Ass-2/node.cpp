@@ -2,7 +2,11 @@
 
 Node::Node()
 {
-	 Data=0;
-	 strcpy(Name,"");
+	
 	 next=NULL;
+}
+
+Node::Node(cEmployee e)
+{
+	this->Data = e;
 }

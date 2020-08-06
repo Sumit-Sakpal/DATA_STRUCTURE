@@ -6,6 +6,7 @@ class node
 {
 	T data;
 	node* next;
+
 public:
 	node();
 	node(T);

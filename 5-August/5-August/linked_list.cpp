@@ -1,16 +1,19 @@
-#include"Linklist.h"
+#include"linked_list.h"
+
 template<class T>
 clinkList<T>::clinkList()
 {
 	head = NULL;
 }
 template<class T>
+
 node<T>* clinkList<T>::createNode(T val)
 {
 	node<T>* newnode = new node<T>(val);
 	return newnode;
 }
 template<class T>
+
 void  clinkList<T>::addBegin(T val)
 {
 	node<T>* newnode = createNode(val);
@@ -24,6 +27,7 @@ void  clinkList<T>::addBegin(T val)
 		head = newnode;
 	}
 }
+
 template<class T>
 void  clinkList<T>::addMid(T val, int pos)
 {

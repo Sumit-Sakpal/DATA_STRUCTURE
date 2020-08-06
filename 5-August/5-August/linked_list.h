@@ -1,9 +1,11 @@
-#include"Node.cpp"
+#include"Node.h"
+
 template<class T>
 class clinkList
 {
 	node<T>* head;
 	int cnt;
+
 public:
 	clinkList();
 	node<T>* createNode(T);
@@ -15,6 +17,7 @@ public:
 	void deletelast();
 	void Display();
 	void reverse();
+
 	friend ostream& operator<<(ostream& out, clinkList& l)
 	{
 		node<T>* temp;
@@ -26,5 +29,6 @@ public:
 		}
 		return out;
 	}
+
 	~clinkList();
 };

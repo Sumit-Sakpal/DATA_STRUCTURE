@@ -1,0 +1,42 @@
+﻿  node.cpp
+d:\visual studio\data structure\data-structure\5-august\5-august\node.h(17): error C2989: 'node': class template has already been declared as a non-class template
+  d:\visual studio\data structure\data-structure\5-august\ass-2\node.h(9): note: see declaration of 'node'
+d:\visual studio\data structure\data-structure\5-august\5-august\node.h(4): error C3857: 'node': multiple template parameter lists are not allowed
+d:\visual studio\data structure\data-structure\5-august\5-august\node.cpp(5): error C2988: unrecognizable template declaration/definition
+d:\visual studio\data structure\data-structure\5-august\5-august\node.cpp(5): error C2059: syntax error: '<'
+d:\visual studio\data structure\data-structure\5-august\5-august\node.cpp(6): error C2143: syntax error: missing ';' before '{'
+d:\visual studio\data structure\data-structure\5-august\5-august\node.cpp(6): error C2447: '{': missing function header (old-style formal list?)
+d:\visual studio\data structure\data-structure\5-august\5-august\node.cpp(12): error C2988: unrecognizable template declaration/definition
+d:\visual studio\data structure\data-structure\5-august\5-august\node.cpp(12): error C2059: syntax error: '<'
+d:\visual studio\data structure\data-structure\5-august\5-august\node.cpp(13): error C2143: syntax error: missing ';' before '{'
+d:\visual studio\data structure\data-structure\5-august\5-august\node.cpp(13): error C2447: '{': missing function header (old-style formal list?)
+d:\visual studio\data structure\data-structure\5-august\5-august\node.cpp(19): error C2988: unrecognizable template declaration/definition
+d:\visual studio\data structure\data-structure\5-august\5-august\node.cpp(19): error C2143: syntax error: missing ';' before '<'
+d:\visual studio\data structure\data-structure\5-august\5-august\node.cpp(19): error C2182: 'node': illegal use of type 'void'
+d:\visual studio\data structure\data-structure\5-august\5-august\node.cpp(19): error C2059: syntax error: '<'
+d:\visual studio\data structure\data-structure\5-august\5-august\node.cpp(19): error C2039: 'setData': is not a member of '`global namespace''
+d:\visual studio\data structure\data-structure\5-august\5-august\node.cpp(20): error C2143: syntax error: missing ';' before '{'
+d:\visual studio\data structure\data-structure\5-august\5-august\node.cpp(20): error C2447: '{': missing function header (old-style formal list?)
+d:\visual studio\data structure\data-structure\5-august\5-august\node.cpp(25): error C2988: unrecognizable template declaration/definition
+d:\visual studio\data structure\data-structure\5-august\5-august\node.cpp(25): error C2143: syntax error: missing ';' before '<'
+d:\visual studio\data structure\data-structure\5-august\5-august\node.cpp(25): error C2182: 'node': illegal use of type 'void'
+d:\visual studio\data structure\data-structure\5-august\5-august\node.cpp(25): error C2374: 'node': redefinition; multiple initialization
+  d:\visual studio\data structure\data-structure\5-august\5-august\node.cpp(19): note: see declaration of 'node'
+d:\visual studio\data structure\data-structure\5-august\5-august\node.cpp(25): error C2059: syntax error: '<'
+d:\visual studio\data structure\data-structure\5-august\5-august\node.cpp(25): error C2039: 'setNext': is not a member of '`global namespace''
+d:\visual studio\data structure\data-structure\5-august\5-august\node.cpp(26): error C2143: syntax error: missing ';' before '{'
+d:\visual studio\data structure\data-structure\5-august\5-august\node.cpp(26): error C2447: '{': missing function header (old-style formal list?)
+d:\visual studio\data structure\data-structure\5-august\5-august\node.cpp(31): error C2988: unrecognizable template declaration/definition
+d:\visual studio\data structure\data-structure\5-august\5-august\node.cpp(31): error C2143: syntax error: missing ';' before '<'
+d:\visual studio\data structure\data-structure\5-august\5-august\node.cpp(31): error C2371: 'node': redefinition; different basic types
+  d:\visual studio\data structure\data-structure\5-august\5-august\node.cpp(19): note: see declaration of 'node'
+d:\visual studio\data structure\data-structure\5-august\5-august\node.cpp(31): error C2059: syntax error: '<'
+d:\visual studio\data structure\data-structure\5-august\5-august\node.cpp(31): error C2039: 'getData': is not a member of '`global namespace''
+d:\visual studio\data structure\data-structure\5-august\5-august\node.cpp(32): error C2143: syntax error: missing ';' before '{'
+d:\visual studio\data structure\data-structure\5-august\5-august\node.cpp(32): error C2447: '{': missing function header (old-style formal list?)
+d:\visual studio\data structure\data-structure\5-august\5-august\node.cpp(37): error C2988: unrecognizable template declaration/definition
+d:\visual studio\data structure\data-structure\5-august\5-august\node.cpp(37): error C2143: syntax error: missing ';' before '<'
+d:\visual studio\data structure\data-structure\5-august\5-august\node.cpp(37): error C2059: syntax error: '<'
+d:\visual studio\data structure\data-structure\5-august\5-august\node.cpp(37): error C2039: 'getNext': is not a member of '`global namespace''
+d:\visual studio\data structure\data-structure\5-august\5-august\node.cpp(38): error C2143: syntax error: missing ';' before '{'
+d:\visual studio\data structure\data-structure\5-august\5-august\node.cpp(38): error C2447: '{': missing function header (old-style formal list?)
